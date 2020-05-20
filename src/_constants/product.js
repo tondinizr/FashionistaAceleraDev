@@ -1,0 +1,4 @@
+export const productConstants = {
+  FETCH_PRODUCTS: 'FETCH_PRODUCTS',
+  SET_PRODUCT_DETAILS: 'SET_PRODUCT_DETAILS'
+}

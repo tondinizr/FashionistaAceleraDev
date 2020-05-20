@@ -1,0 +1,51 @@
+@import "../../../_assets/styles/_variables";
+
+.card__product {
+  background: $white;
+  // border: 1px solid rgba(0, 0, 0, .1);
+  border-radius: 4px;
+  position: relative;
+
+  .card__image {
+    background-color: $white;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .card__body {
+    padding: 0.5em;
+    background-color: $bg-body;
+
+    a {
+      text-align: center;
+      font-size: 1em;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .card__info {
+      margin-top: 0.5em;
+      font-weight: 500;
+      .product__price {
+        color: $grey;
+        margin: 0 0.5em 0;
+        text-decoration: line-through;
+      }
+
+      .sale__price {
+        font-size: 1em;
+      }
+    }
+  }
+
+  .discount__percentage {
+    position: absolute;
+    right: 0;
+    padding: 0.2em;
+    background-color: #212529;
+    color: $white;
+    font-weight: 400;
+    font-size: 0.9em;
+  }
+}

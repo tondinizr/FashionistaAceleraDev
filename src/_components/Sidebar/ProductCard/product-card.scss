@@ -1,0 +1,64 @@
+@import '../../../_assets/styles/_variables';
+.product {
+  padding-bottom: 1.5em;  
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+  .product__image {
+    width: 25%;    
+    .product__remove-btn {
+      color: $danger;
+      font-size: 1em;
+    }
+  }
+
+  .product__details {
+    flex: 1;
+    .product__description {
+      flex: 1;
+      h4 {
+        text-transform: uppercase;        
+        margin: 0 0 .8em;
+      }
+
+      span {
+        color: $grey;
+        font-weight: 600;
+      }
+
+      .product__actions {
+        margin-top: 1em;
+        .product__quantity {
+          margin: 0 0 0 1em;
+          color: $black;
+        }
+        .product__action {
+          padding: .3em;
+          border: 1px solid $black;
+          
+          &:disabled {
+            cursor: default;
+          }
+          
+          &:not(:first-child) {
+            margin: 0 1em;
+          }
+        }
+      }
+    }
+  }
+
+  .product__cost {
+    text-align: center;    
+    .product__price {
+      font-size: 1.1em;
+      font-weight: bold;
+      margin-bottom: .5em;
+    }
+
+    .product__parcels {
+      font-size: .9em;
+      color: $grey;
+    }
+
+  }
+
+}
