@@ -1,0 +1,296 @@
+div .pagenotfound {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  display: block;
+  width: 100%;
+  text-align: center;
+  color: #a7a7a7;
+}
+
+.pagenotfound h1 {
+  font: 400 40px/1.2 "PT Sans", sans-serif;
+  color: #a7a7a7;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  margin-bottom: 25px;
+}
+
+.pagenotfound h1 {
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.pagenotfound h1 span {
+  display: block;
+  font-size: 140px;
+  letter-spacing: 0.08em;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+.pagenotfound p {
+  border-bottom: 1px solid #e5e5e5;
+  padding-bottom: 21px;
+  margin-bottom: 20px;
+}
+.pagenotfound h3 {
+  font-weight: bold;
+  color: #a7a7a7;
+  font: normal 18px/1.44 "PT Sans", sans-serif;
+  margin-bottom: 18px;
+}
+
+.pagenotfound {
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  height: 40px;
+}
+
+.pagenotfound .btn-default,
+.pagenotfound .btn-default::before {
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+.pagenotfound .btn-default {
+  position: relative;
+  color: #a7a7a7;
+  background: none;
+  -moz-transition: border-color 0.4s ease color 0.4s ease;
+  -o-transition: border-color 0.4s ease color 0.4s ease;
+  -webkit-transition: border-color 0.4s ease color 0.4s ease;
+  transition: border-color 0.4s ease color 0.4s ease;
+}
+
+.pagenotfound .btn-md {
+  padding: 10px 22px;
+  font-size: 12px;
+  line-height: 1.667;
+}
+
+.pagenotfound .btn {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+  white-space: normal;
+  max-width: 100%;
+  border: none;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  border-radius: 0;
+  border-width: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  -moz-box-shadow: inset 0 0 0 1px #e5e5e5;
+  -webkit-box-shadow: inset 0 0 0 1px #e5e5e5;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+}
+
+.pagenotfound .btn-default {
+  color: #333333;
+  background-color: white;
+  border-color: #a7a7a7;
+}
+
+.pagenotfound .btn {
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-image: none;
+  border: 1px solid transparent;
+  white-space: nowrap;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857;
+  border-radius: 4px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.pagenotfound .btn:active:focus,
+.pagenotfound .btn:focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.pagenotfound .btn:focus,
+.pagenotfound .btn:hover {
+  color: #333;
+  text-decoration: none;
+}
+.pagenotfound .btn:active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.pagenotfound.btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.65;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.pagenotfound .btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+.pagenotfound .btn-default:focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.pagenotfound .btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.pagenotfound .btn-default:active {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+.pagenotfound .btn-default:active:focus,
+.pagenotfound .btn-default:active:hover {
+  color: #333;
+  background-color: #d4d4d4;
+  border-color: #8c8c8c;
+}
+.pagenotfound .btn-default:active {
+  background-image: none;
+}
+.pagenotfound .btn-default[disabled]:focus,
+.pagenotfound .btn-default[disabled]:hover {
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.pagenotfound .btn {
+  display: inline-block;
+  text-align: center;
+  line-height: 1.2;
+  white-space: normal;
+  max-width: 100%;
+  border: none;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  border-radius: 0;
+  border-width: 0;
+  cursor: pointer;
+  vertical-align: middle;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+  -moz-box-shadow: inset 0 0 0 1px #e5e5e5;
+  -webkit-box-shadow: inset 0 0 0 1px #e5e5e5;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+}
+.pagenotfound .btn:hover {
+  color: inherit;
+  text-decoration: none;
+}
+.pagenotfound .btn:active,
+.pagenotfound .btn:active:focus,
+.pagenotfound .btn:focus,
+.pagenotfound .btn:hover {
+  -moz-box-shadow: inset 0 0 0 1px #e5e5e5;
+  -webkit-box-shadow: inset 0 0 0 1px #e5e5e5;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+  outline: 0;
+  color: inherit;
+  text-decoration: none;
+}
+.pagenotfound .btn-md {
+  padding: 10px 22px;
+  font-size: 12px;
+  line-height: 1.667;
+}
+.pagenotfound .btn-default {
+  position: relative;
+  color: #333;
+  background: 0 0;
+  -moz-transition: border-color 0.4s ease color 0.4s ease;
+  -o-transition: border-color 0.4s ease color 0.4s ease;
+  -webkit-transition: border-color 0.4s ease color 0.4s ease;
+  transition: border-color 0.4s ease color 0.4s ease;
+}
+.pagenotfound .btn-default::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: -1;
+  opacity: 0;
+  -moz-transform: scale3d(0.7, 1, 1);
+  -ms-transform: scale3d(0.7, 1, 1);
+  -o-transform: scale3d(0.7, 1, 1);
+  -webkit-transform: scale3d(0.7, 1, 1);
+  transform: scale3d(0.7, 1, 1);
+  transition: transform 0.4s, opacity 0.4s;
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.pagenotfound .btn-default,
+.pagenotfound .btn-default::before {
+  transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.pagenotfound .btn-default:hover {
+  color: #fff;
+  -moz-box-shadow: inset 0 0 0 1px #e5e5e5;
+  -webkit-box-shadow: inset 0 0 0 1px #e5e5e5;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+}
+.pagenotfound .btn-default:hover:before {
+  opacity: 1;
+  -moz-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -ms-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -o-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  -webkit-transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+  transform: translate3d(0, 0, 0) scale3d(1, 1, 1);
+}
+.pagenotfound .btn-default.btn[disabled],
+.pagenotfound .btn-default:active,
+.pagenotfound .btn-default:active:focus,
+.pagenotfound .btn-default:focus {
+  -moz-box-shadow: inset 0 0 0 1px #e5e5e5;
+  -webkit-box-shadow: inset 0 0 0 1px #e5e5e5;
+  box-shadow: inset 0 0 0 1px #e5e5e5;
+  background: 0 0;
+  color: #333;
+}
+.pagenotfound .btn-default:active:focus:hover,
+.pagenotfound .btn-default:active:hover,
+.pagenotfound .btn-default:focus:hover {
+  color: #fff;
+}
+.pagenotfound .btn-default:active:focus:hover:before,
+.pagenotfound .btn-default:active:hover:before,
+.pagenotfound .btn-default:focus:hover:before {
+  opacity: 1;
+  -moz-transform: scale3d(1, 1, 1);
+  -ms-transform: scale3d(1, 1, 1);
+  -o-transform: scale3d(1, 1, 1);
+  -webkit-transform: scale3d(1, 1, 1);
+  transform: scale3d(1, 1, 1);
+}
