@@ -14,6 +14,7 @@ const Routes = () => {
       <Route path="*">
         <Redirect to="/not-found" />
       </Route>
+      <Route component="/not-found" />
     </Switch>
   );
 };
