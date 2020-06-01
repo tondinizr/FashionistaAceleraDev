@@ -11,7 +11,7 @@ const Routes = () => {
       <Route exact path="/" component={Home} />
       <Route path="/produto/:id" component={ProductDetails} />
       <Route path="/not-found" component={NotFound} />
-      <Route path="*">
+      <Route path="/*">
         <Redirect to="/not-found" />
       </Route>
       <Route component="/not-found" />
